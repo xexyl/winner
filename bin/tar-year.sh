@@ -2,7 +2,7 @@
 #
 # tar-year.sh - tar files belonging a given year
 #
-# Copyright (c) 2024 by Landon Curt Noll.  All Rights Reserved.
+# Copyright (c) 2024,2026 by Landon Curt Noll.  All Rights Reserved.
 #
 # Permission to use, copy, modify, and distribute this software and
 # its documentation for any purpose and without fee is hereby granted,
@@ -104,7 +104,7 @@ export LC_ALL="C"
 
 # set variables referenced in the usage message
 
-export VERSION="2.0.3 2026-05-17"
+export VERSION="2.0.4 2026-07-10"
 NAME=$(basename "$0")
 export NAME
 export V_FLAG=0
@@ -590,6 +590,18 @@ if [[ -z $NOOP ]]; then
     #
     export YYYY_FILE
     grep -F -v "$TARBALL" "$YEAR_LIST" | while read -r YYYY_FILE; do
+
+	# because the fun challenges are not technically part of the winning entries,
+	# we skip adding both YYYY/challenge.html, and YYYY/challenge.md
+	#
+	YYYY_FILE_BASENAME=$(basename "$YYYY_FILE")
+	export YYYY_FILE_BASENAME
+	if [[ $YYYY_FILE_BASENAME == "challenge.html" || $YYYY_FILE_BASENAME == "challenge.md" ]]; then
+	    if [[ $V_FLAG -ge 3 ]]; then
+		echo  "$0: debug[3]: intentionally skipping the add of: $YYYY_FILE" 1>&2
+	    fi
+	    continue
+	fi
 
 	# verify the file listed in the .filelist file is a readable .year file
 	#
