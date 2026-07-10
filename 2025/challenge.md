@@ -250,10 +250,17 @@ Choose a colors/brightness palette to represent the charge intensity.
 ## Fun challenge for [2025/endoh3](endoh3/index.html)
 </div>
 
-This fun challenge is still **OPEN**.
+This fun challenge is **CLOSED**.
 
 Explain why the `git-am` patch generator must be used about 25 times (see
 [try.sh](%%REPO_URL%%/2025/endoh3/try.sh) for details) to produce a unified diff tool.
+
+<div id="endoh3_solution">
+### Fun challenge solution for [2025/endoh3](endoh3/index.html)
+</div>
+
+[Jack Mahoney](https://github.com/jackmhny) on **2026 Jul 10** presented this
+[2025/endoh3 fun challenge solution](https://github.com/jackmhny/IOCCC-2025-endoh3-fun-challenge).
 
 <div id="ferguson">
 ## Fun challenges for [2025/ferguson](ferguson/index.html)
