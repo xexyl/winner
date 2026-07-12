@@ -31,6 +31,7 @@ Modify `prog.c` so that the code allows for `N` to be
 defined for values larger than `11`, e.g., that works with `-DN=12`,
 and up to some reasonable limit.
 
+
 <div id="ayu_solution">
 ### Fun challenge solution for [2025/ayu](ayu/index.html)
 </div>
@@ -83,6 +84,7 @@ Modify `prog.c` so that the code supports the
 This fun challenge is still **OPEN**.
 
 Explain the purpose of the constant `9018655` as used in `prog.c`.
+
 
 <div id="dogon">
 ## Fun challenges for [2025/dogon](dogon/index.html)
@@ -235,15 +237,28 @@ the tube size to better distinguish individual letters and digits.
 Such code would be a [cromulent](https://en.wiktionary.org/wiki/cromulent#English)
 addition to [2025/endoh1](%%REPO_URL%%/2025/endoh1/index.html) code.
 
+
 <div id="endoh2">
 ## Fun challenge for [2025/endoh2](endoh2/index.html)
 </div>
 
-This fun challenge is still **OPEN**.
+This fun challenge is **CLOSED**.
 
 Modify `prog.c` so that the code prints a line instead of varying brightness of a yellow line,
 using [256 ANSI Color Codes](https://color-palette.hexdocs.pm/ansi_color_codes.html).
 Choose a colors/brightness palette to represent the charge intensity.
+
+
+<div id="endoh2_solution">
+### Fun challenge solution for [2025/endoh2](endoh2/index.html)
+</div>
+
+As [antoine-mathys](https://github.com/antoine-mathys) pointed out on **2026 July 11**,
+that [2025/endoh2/prog.alt.c](endoh2/prog.alt.c) solved this fun challenge.
+
+Apologies: before we wrote this fun challenge page, [omoikane](https://github.com/uguu-org) on
+**2026 Jun 7** contributed the solution that we added as [2025/endoh2/prog.alt.c](endoh2/prog.alt.c).
+We forgot this happened when we created this fun challenge page.
 
 
 <div id="endoh3">
@@ -255,12 +270,14 @@ This fun challenge is **CLOSED**.
 Explain why the `git-am` patch generator must be used about 25 times (see
 [try.sh](%%REPO_URL%%/2025/endoh3/try.sh) for details) to produce a unified diff tool.
 
+
 <div id="endoh3_solution">
 ### Fun challenge solution for [2025/endoh3](endoh3/index.html)
 </div>
 
 [Jack Mahoney](https://github.com/jackmhny) on **2026 Jul 10** presented this
 [2025/endoh3 fun challenge solution](https://github.com/jackmhny/IOCCC-2025-endoh3-fun-challenge).
+
 
 <div id="ferguson">
 ## Fun challenges for [2025/ferguson](ferguson/index.html)
@@ -288,6 +305,7 @@ you cannot find one or you wish for some fun.
 this as well (in fact trying to use the library would totally break the code and
 defeat the purpose of some of the obfuscation).
 
+
 <div id="ferguson_1">
 ### Fun challenge 1 for [2025/ferguson](ferguson/index.html)
 </div>
@@ -297,6 +315,7 @@ This fun challenge is still **OPEN**.
 Explain why there are four args (in one invocation) but yet the value of argc, `g`, is
 only checked once, besides `g!= 3 && g < 5` (which should tell you the two forms of
 invocation).
+
 
 <div id="ferguson_2">
 ### Fun challenge 2 for [2025/ferguson](ferguson/index.html)
@@ -323,6 +342,7 @@ This fun challenge is still **OPEN**.
 Modify `prog.c` the code that solves [challenge 2](#ferguson_2),
 with a `-p projection` option.
 
+
 <div id="ferguson_4">
 ### Fun challenge 4 for [2025/ferguson](ferguson/index.html)
 </div>
@@ -339,6 +359,7 @@ the `!=1` in the code:
 ```
 
 **Hint**: the above are related to each other.
+
 
 <div id="ferguson_4_solution">
 #### Fun challenge solution for [2025/ferguson](ferguson/index.html)
@@ -375,6 +396,7 @@ floor until the player eventually acquires it. Block the player’s ascent
 (to a lower floor number) unless they possess the amulet. If the player
 returns to the top floor 0 with the amulet, display a winning message, and exit.
 
+
 <div id="jingp49">
 ## Fun challenge for [2025/jingp49](jingp49/index.html)
 </div>
@@ -382,6 +404,7 @@ returns to the top floor 0 with the amulet, display a winning message, and exit.
 This fun challenge is still **OPEN**.
 
 Modify `prog.c` so that the code displays **IOCCC 2025** instead of **DOCTOR WHO**.
+
 
 <div id="kurdyukov">
 ## Fun challenge for [2025/kurdyukov](kurdyukov/index.html)
@@ -438,6 +461,7 @@ This fun challenge is **CLOSED**.
 Modify `prog.c` so that the code with a modified `p[]` array prints
 the string `IOCCC 2025` followed by a newline.
 
+
 <div id="ncw2_solution">
 ### Fun challenge solution for [2025/ncw2](ncw2/index.html)
 </div>
@@ -482,6 +506,7 @@ If you do not attempt to move the paddle, and let the game run on its
 own, the game should "evolve" to other "modes", and eventually cycle back
 to the original style of game play.
 
+
 <div id="uellenberg_1">
 ### Fun challenge 1 for [2025/uellenberg](uellenberg/index.html)
 </div>
@@ -507,6 +532,7 @@ This fun challenge is still **OPEN**.
 Create a version of the game that "plays itself", running through all
 the gameplay without user input and returning to the exact source code
 it started with.
+
 
 <div id="yang1">
 ## Fun challenge for [2025/yang1](yang1/index.html)
