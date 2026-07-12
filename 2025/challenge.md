@@ -253,12 +253,7 @@ Choose a colors/brightness palette to represent the charge intensity.
 ### Fun challenge solution for [2025/endoh2](endoh2/index.html)
 </div>
 
-As [antoine-mathys](https://github.com/antoine-mathys) pointed out on **2026 July 11**,
-that [2025/endoh2/prog.alt.c](endoh2/prog.alt.c) solved this fun challenge.
-
-Apologies: before we wrote this fun challenge page, [omoikane](https://github.com/uguu-org) on
-**2026 Jun 7** contributed the solution that we added as [2025/endoh2/prog.alt.c](endoh2/prog.alt.c).
-We forgot this happened when we created this fun challenge page.
+[omoikane](https://github.com/uguu-org) on **2026 Jun 7** contributed a solution that was added as [2025/endoh2/prog.alt.c](endoh2/prog.alt.c).
 
 
 <div id="endoh3">
