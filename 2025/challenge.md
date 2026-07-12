@@ -327,7 +327,7 @@ with a `-p projection` option.
 ### Fun challenge 4 for [2025/ferguson](ferguson/index.html)
 </div>
 
-This fun challenge is still **OPEN**.
+This fun challenge is **CLOSED**.
 
 Explain why `d` has to start at `-1` (bonus: experiment with different values
 and explain what happens and specifically why) and why you can't change
@@ -339,6 +339,13 @@ the `!=1` in the code:
 ```
 
 **Hint**: the above are related to each other.
+
+<div id="ferguson_4_solution">
+#### Fun challenge solution for [2025/ferguson](ferguson/index.html)
+</div>
+
+[Antoine Mathys](https://github.com/antoine-mathys) on **2026 Jul 11** presented this
+[2025/ferguson fun challenge 4 solution](https://github.com/antoine-mathys/IOCCC-2025-ferguson-fun-challenge-4).
 
 
 <div id="howe">
