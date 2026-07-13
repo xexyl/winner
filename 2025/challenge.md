@@ -36,7 +36,7 @@ and up to some reasonable limit.
 ### Fun challenge solution for [2025/ayu](ayu/index.html)
 </div>
 
-[Master-Hash](https://github.com/Master-Hash) on **2026 Jun 09** presented this
+GitHub user [Master-Hash](https://github.com/Master-Hash) on **2026 Jun 09** presented this
 [2025/ayu fun challenge solution](https://github.com/Master-Hash/ioccc--ayu-2025-fun-challenge).
 
 
@@ -253,7 +253,16 @@ Choose a colors/brightness palette to represent the charge intensity.
 ### Fun challenge solution for [2025/endoh2](endoh2/index.html)
 </div>
 
-[omoikane](https://github.com/uguu-org) on **2026 Jun 7** contributed a solution that was added as [2025/endoh2/prog.alt.c](endoh2/prog.alt.c).
+GitHub user [omoikane](https://github.com/uguu-org) on
+**2026 Jun 7** contributed a solution that was added as
+[2025/endoh2/prog.alt.c](endoh2/prog.alt.c).
+
+**NOTE**: The above mentioned file was added before this page was available.
+Future solutions to other fun challenges should be presented as external GitHub repos.
+
+See the
+FAQ on "[submitting a solution](../faq.html#solve_fun_challenge)"
+for more details.
 
 
 <div id="endoh3">
